@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyDataService</name>
+    </assembly>
+    <members>
+        <member name="M:MyDataService.Controllers.TestDataController.GetAllData">
+             <summary>
+             Returns all persisted data
+             </summary>
+             <returns></returns>
+             <remarks>
+             Sample request:
+            
+             {
+                
+             }
+             </remarks>
+        </member>
+        <member name="M:MyDataService.Controllers.TestDataController.GetTestData(System.Int32)">
+            <summary>
+            Returns test data with id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MyDataService.Model.Enums.DataType">
+            <summary>
+            The data type
+            </summary>
+        </member>
+        <member name="F:MyDataService.Model.Enums.DataType.Response">
+            <summary>
+            Response data in Json format
+            </summary>
+        </member>
+        <member name="F:MyDataService.Model.Enums.DataType.Request">
+            <summary>
+            Request payload in Json format
+            </summary>
+        </member>
+        <member name="P:MyDataService.Model.TestData.Id">
+            <summary>
+            The Id of the data element
+            </summary>
+        </member>
+        <member name="P:MyDataService.Model.TestData.Description">
+            <summary>
+            A description string
+            </summary>
+        </member>
+    </members>
+</doc>
